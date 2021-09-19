@@ -12,7 +12,7 @@ const countries = [
     'KENYA'
   ]
 function createArrayOfArrays(countries) {
-    var countriesArray = new Array();
+    var countrieArray = new Array();
     for (i in countries) {
       let a = new Array();
       a.push(countries[i])
